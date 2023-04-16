@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="font-Poppins">
+		<!-- header start-->
+		<header>
+			<nav class="container flex items-center py-4 mt-4 sm:mt-12">
+				<div class="py-1">
+					<img src="./imgs/logo-bookmark.svg" alt="" />
+				</div>
+				<ul class="hidden flex-1 sm:flex justify-end items-center text-bookmark-blue uppercase text-xs gap-12">
+					<li class="cursor-pointer">Features</li>
+					<li class="cursor-pointer">Pricing</li>
+					<li class="cursor-pointer">Contact</li>
+					<button type="button" class="bg-bookmark-red text-white px-7 py-3 rounded-md uppercase">Login</button>
+				</ul>
+			</nav>
+		</header>
+		<!-- header end-->
+		<!-- Hero section start -->
+		<section class="relative">
+			<div class="container flex flex-col-reverse items-center gap-12 mt-14 lg:flex-row lg:mt-28">
+				<!-- Content -->
+				<div class="flex flex-1 flex-col items-center lg:items-start">
+					<h2 class="text-bookmark-blue mb-6 text-center text-3xl md:text-4xl lg:text-5xl lg:text-left">
+						A Simple Bookmark Manager
+					</h2>
+					<p class="text-bookmark-grey text-lg text-center mb-6 lg:text-left">
+						A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites
+						load instantly. Try it for free.
+					</p>
+					<div class="flex justify-center flex-wrap gap-6">
+						<div class="flex justify-center flex-wrap gap-6">
+							<button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+								Get it on Chrome
+							</button>
+							<button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">
+								Get it on Firefox
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Image -->
+				<div class="flex justify-center flex-1 mb-10 z-10 md:mb-16 lg:mb-0">
+					<img class="w-5/6 h-5/6 sm:h-3/4 sm:w-3/4 md:w-full md:full" src="./imgs/hero-bg.png" alt="" />
+				</div>
+			</div>
+			<!-- Rounded Rectangle -->
+			<div
+				class="hidden absolute overflow-hidden top-32 right-0 bg-bookmark-purple rounded-l-full h-80 w-2/4 lg:-bottom-28 md:block"></div>
+		</section>
+		<!-- Hero section end -->
+		<!-- Features section start-->
+
+		<section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+			<!-- Heading -->
+			<div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+				<h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
+				<p class="text-center text-bookmark-grey mt-4">
+					Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between
+					your devices so you can access them on the go.
+				</p>
+			</div>
+			<!-- Feature # 01 -->
+			<div class="relative mt-20 lg:mt-24">
+				<div class="container flex flex-col gap-x-24 justify-center items-center lg:flex-row">
+					<!-- Image -->
+					<div class="flex-1 justify-center z-10 mb-10 lg:mb-0">
+						<img
+							src="./imgs/illustration-features-tab-1.png"
+							class="w-5/6 h-5/6 sm:h-3/4 sm:w-3/4 md:w-full md:full"
+							alt="" />
+					</div>
+					<!-- Content -->
+					<div class="flex flex-1 flex-col items-center lg:items-start">
+						<h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+						<p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+							Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control
+							over how you manage your favourite sites.
+						</p>
+						<button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+					</div>
+					<!-- Rounded Rectangle -->
+					<div
+						class="hidden absolute overflow-hidden  right-0 bg-bookmark-purple rounded-r-full h-80 w-2/4 lg:-bottom-24 -left-36  md:block"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Feature section end -->
+	</body>
+</html>
