@@ -11,12 +11,7 @@ module.exports = {
 				'2xl': '1124px',
 			},
 		},
-		// screens: {
-		// 	sm: '480px',
-		// 	md: '768px',
-		// 	lg: '976px',
-		// 	xl: '1440px',
-		// },
+		
 		extend: {
 			colors: {
 				'bookmark-purple': '#5267DF',
